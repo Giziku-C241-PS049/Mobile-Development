@@ -3,4 +3,8 @@
     <string name="settings">Setting\n</string>
     <string name="gallery">Galeri</string>
     <string name="analyze">Analyze</string>
+    <string name="rekomendasi_makanan">Rekomendasi Makanan</string>
+    <string name="berita">Berita</string>
+    <string name="home">Home</string>
+    <string name="logout">Logout</string>
 </resources>

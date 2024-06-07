@@ -18,11 +18,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:title="@string/app_name"
         app:titleTextColor="@android:color/white" />
-    
+
+
     <com.google.android.material.navigation.NavigationView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+
+        app:menu="@menu/nav_menu"
+        app:headerLayout="@menu/nav_header"
+        />
 
 
     <com.google.android.material.progressindicator.LinearProgressIndicator
@@ -44,6 +51,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/buttonGallery"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
