@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="209dp"
+        android:layout_height="209dp"
+        android:src="@drawable/Giziku2"/>
+    <EditText
+        android:layout_width="317dp"
+        android:layout_height="58dp"
+        android:id="@+id/email"
+        android:layout_marginTop="40dp"
+        android:padding="8dp"
+        android:hint="Email"
+        android:background="@drawable/custom_edit"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:textColor="@color/black"
+        android:drawablePadding="8dp"
+        android:backgroundTint="@color/white"/>
+    <EditText
+        android:layout_width="317dp"
+        android:layout_height="58dp"
+        android:id="@+id/password"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:hint="Password"
+        android:background="@drawable/custom_edit"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:textColor="@color/black"
+        android:drawablePadding="8dp"
+        android:backgroundTint="@color/white"/>
+    <Button
+        android:layout_width="317dp"
+        android:layout_height="58dp"
+        android:id="@+id/login"
+        android:text="Login"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/login"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:cornerRadius = "14dp"/>
+
+</LinearLayout>
