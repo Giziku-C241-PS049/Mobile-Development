@@ -4,11 +4,11 @@
         android:icon="@drawable/ic_home_black_24dp"
         android:title="@string/home" />
     <item
-        android:id="@+id/navigation_berita"
+        android:id="@+id/navigation_news"
         android:icon="@drawable/baseline_news_24"
         android:title="@string/berita" />
     <item
-        android:id="@+id/navigation_rec_makanan"
+        android:id="@+id/navigation_reccomendation"
         android:icon="@drawable/ic_baseline_recommend_24"
         android:title="@string/rekomendasi_makanan" />
     <item
