@@ -1,27 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn = "navigation_view">
-    <group
-        android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_home"
-            android:title="@string/home"/>
-        <item
-            android:id="@+id/nav_berita"
-            android:title="@string/berita"/>
-        <item
-            android:id="@+id/nav_rekomen"
-            android:title="@string/rekomendasi_makanan"/>
-    </group>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:title="">
-        <menu>
-
-            <item
-                android:id="@+id/nav_logout"
-                android:title="@string/logout"/>
-        </menu>
-    </item>
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/navigation_berita"
+        android:icon="@drawable/baseline_news_24"
+        android:title="@string/berita" />
+    <item
+        android:id="@+id/navigation_rec_makanan"
+        android:icon="@drawable/ic_baseline_recommend_24"
+        android:title="@string/rekomendasi_makanan" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/profile" />
 </menu>
