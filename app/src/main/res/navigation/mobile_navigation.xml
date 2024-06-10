@@ -12,6 +12,12 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
+        android:id="@+id/navigation_news"
+        android:name="com.example.giziku.news.main.MainNewsFragment"
+        android:label="@string/text_news"
+        tools:layout="@layout/fragment_main_news" />
+
+    <fragment
         android:id="@+id/navigation_reccomendation"
         android:name="com.example.giziku.reccomendation.ReccomendationFragment"
         android:label="@string/rekomendasi_makanan"
