@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/historyCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/img_history"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="4dp"
+            android:contentDescription="@string/dummy_img"
+            card_view:layout_constraintBottom_toTopOf="@+id/news_result"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/dummy_news_photo" />
+
+        <TextView
+            android:id="@+id/news_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@id/img_history"
+            android:fontFamily="@font/lato_bold"
+
+            android:maxLines="3"
+            android:textStyle="bold"
+            card_view:layout_constraintBottom_toTopOf="@+id/confidence_text"
+            card_view:layout_constraintStart_toStartOf="parent"
+            tools:text="@string/result_prediction" />
+
+
+        <TextView
+            android:id="@+id/confidence_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="6dp"
+            android:layout_toEndOf="@id/img_history"
+            android:fontFamily="@font/lato_semi_bold"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            tools:text="@string/nutrition" />
+        <TextView
+            android:id="@+id/confidence_store"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="6dp"
+            android:layout_toEndOf="@id/img_history"
+            android:maxLines="3"
+            android:textStyle="bold"
+            android:fontFamily="@font/lato_bold"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintStart_toEndOf="@+id/confidence_text"
+            tools:text="@string/dummy_nutrition" />
+
+        <ImageButton
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="@+id/img_history"
+            card_view:layout_constraintTop_toBottomOf="@+id/img_history" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

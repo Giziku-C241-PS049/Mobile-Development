@@ -8,6 +8,18 @@
     <string name="home">Home</string>
     <string name="logout">Logout</string>
     <string name="profile">Profile</string>
+    <string name="detail_img">Detail Image</string>
+    <string name="text_news">NEWS</string>
+    <string name="news_title">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</string>
+    <string name="text_by">by-</string>
+    <string name="news_author">News Author</string>
+    <string name="publish_time">Publish Time\n</string>
+    <string name="news_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis nisl sit amet tellus maximus elementum. Cras venenatis eget ante non lobortis. Donec posuere, mi id laoreet ullamcorper, leo libero lacinia urna, nec posuere mi orci sed lacus. Aliquam arcu neque, tincidunt eget efficitur sed, luctus ornare quam. Nam ullamcorper, sem et lacinia gravida, metus lectus molestie massa, tincidunt cursus turpis odio sed erat. Aenean pulvinar ante sed nunc ullamcorper vestibulum. Nullam in sapien lectus. Nulla placerat, magna sit amet ultrices scelerisque, orci ante viverra quam, et vulputate eros augue elementum libero. Suspendisse molestie, lorem et convallis interdum, risus leo placerat erat, nec finibus leo libero et libero.</string>
+    <string name="news_health">Berita Kesehatan</string>
+    <string name="dummy_img">Dummy News Photo</string>
+    <string name="result_prediction">result</string>
+    <string name="nutrition">Nutrition :</string>
+    <string name="dummy_nutrition">Berserat, dsb</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Giziku"
         tools:targetApi="31">
         <activity
+            android:name=".news.main.MainNewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".news.detail.DetailNewsActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
