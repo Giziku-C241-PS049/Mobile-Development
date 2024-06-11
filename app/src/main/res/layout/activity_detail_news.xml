@@ -21,7 +21,6 @@
                 android:id="@+id/img_detail"
                 android:layout_width="0dp"
                 android:layout_height="300dp"
-                android:contentDescription="@string/detail_img"
                 android:scaleType="centerCrop"
                 android:src="@drawable/dummy_news_photo"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -49,7 +48,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:fontFamily="@font/lato_bold"
-                android:text="@string/news_title"
+                tools:text="@string/title2"
                 android:textSize="25sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -76,7 +75,7 @@
                 android:layout_marginTop="12dp"
                 android:textSize="15sp"
                 android:fontFamily="@font/lato_semi_bold"
-                android:text="@string/news_author"
+                android:text="@string/news_author2"
                 app:layout_constraintTop_toBottomOf="@+id/news_titles"
                 app:layout_constraintStart_toEndOf="@id/text_1" />
 
@@ -88,7 +87,7 @@
                 android:layout_marginStart="16dp"
                 android:textSize="13sp"
                 android:fontFamily="@font/lato_semi_bold"
-                android:text="@string/publish_time"
+                android:text="@string/publish_time2"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/text_1" />
 
@@ -99,7 +98,8 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
-                android:text="@string/news_desc"
+                android:text="@string/news_desc2"
+                android:lineSpacingMultiplier="1.5"
                 android:textSize="19sp"
                 android:fontFamily="@font/lato_semi_bold"
                 android:textStyle="bold"

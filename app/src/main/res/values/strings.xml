@@ -8,18 +8,86 @@
     <string name="home">Home</string>
     <string name="logout">Logout</string>
     <string name="profile">Profile</string>
-    <string name="detail_img">Detail Image</string>
     <string name="text_news">NEWS</string>
-    <string name="news_title">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</string>
     <string name="text_by">by-</string>
-    <string name="news_author">News Author</string>
-    <string name="publish_time">Publish Time\n</string>
-    <string name="news_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis nisl sit amet tellus maximus elementum. Cras venenatis eget ante non lobortis. Donec posuere, mi id laoreet ullamcorper, leo libero lacinia urna, nec posuere mi orci sed lacus. Aliquam arcu neque, tincidunt eget efficitur sed, luctus ornare quam. Nam ullamcorper, sem et lacinia gravida, metus lectus molestie massa, tincidunt cursus turpis odio sed erat. Aenean pulvinar ante sed nunc ullamcorper vestibulum. Nullam in sapien lectus. Nulla placerat, magna sit amet ultrices scelerisque, orci ante viverra quam, et vulputate eros augue elementum libero. Suspendisse molestie, lorem et convallis interdum, risus leo placerat erat, nec finibus leo libero et libero.</string>
     <string name="news_health">Berita Kesehatan</string>
     <string name="dummy_img">Dummy News Photo</string>
     <string name="result_prediction">result</string>
     <string name="nutrition">Nutrition :</string>
     <string name="dummy_nutrition">Berserat, dsb</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title2">Judul Berita</string>
+    <string name="news_author2">Penulis Berita</string>
+    <string name="publish_time2">Waktu publish</string>
+    <string name="news_desc2">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</string>
+
+
+
+
+    <string-array name="news_title">
+        <item>Pentingnya Memahami Nutrisi, Samakah dengan Zat Gizi?</item>
+        <item>Pentingnya Edukasi Gizi dan Kebiasaan makan Sehat untuk Remaja</item>
+    </string-array>
+    <string-array name="news_author">
+        <item>Rizky Adrian</item>
+        <item>Nutrisi Untuk Bangsa</item>
+    </string-array>
+    <string-array name="publish_time">
+        <item>22 Februari 2024</item>
+        <item>16 Agustus 2020</item>
+    </string-array>
+    <string-array name="news_desc">
+        <item>Kata “nutrisi” cukup umum, tetapi masih banyak yang keliru dalam memahaminya. Kata ini sering kali disamakan dengan zat gizi, padahal jelas berbeda. Supaya Anda tidak salah lagi memahaminya, simak penjelasannya berikut ini.
+              Apa itu nutrisi?
+              Nutrisi adalah asupan makanan dalam kaitannya dengan kebutuhan diet sehat untuk tubuh.
+              Bila mengacu pada Kamus Besar Bahasa Indonesia, nutrisi adalah proses pemasukan dan pengolahan zat makanan oleh tubuh; makanan bergizi; dan ilmu tentang gizi.
+              Nutrisi yang tepat, dalam artian makanan bergizi, menjadi kunci untuk mencegah berkembangnya penyakit kronis dan membuat seseorang dapat hidup sehat serta panjang umur.
+              Tidak hanya berumur lebih panjang, tapi Anda juga memiliki hidup yang lebih berkualitas.
+              Bagi orang dengan masalah kesehatan tertentu, menentukan nutrisi yang sesuai dengan arahan dokter gizi, ahli gizi, atau dietitian dapat membantu mengelola gejala dan mencegah terjadinya komplikasi.
+            Beda nutrisi dengan zat gizi.
+             Setelah memahami penjelasan di atas, Anda tentu paham jika nutrisi berbeda dengan zat gizi.
+             Nutrisi lebih mengarah pada proses makanan  yang dicerna oleh tubuh, sedangkan zat gizi adalah senyawa aktif yang digunakan tubuh agar bisa berfungsi normal.
+             Zat gizi ini kemudian terbagi menjadi dua, yakni zat gizi makro dan zat gizi mikro. Zat gizi makro diperlukan tubuh dalam jumlah besar, misalnya karbohidrat, lemak, dan protein yang memberi tubuh energi.
+             Sementara zat gizi mikro diperlukan tubuh dalam jumlah yang lebih sedikit yang mencangkup vitamin dan mineral, seperti zat besi, vitamin A, vitamin D, yodium, asam folat, dan zink.
+             Berikut ini adalah peran dari zat gizi mikro bagi tubuh.
+             Membentuk sel darah.
+             Meningkatkan sistem imun agar tidak mudah sakit.
+             Membangun tulang dan gigi.
+            Mendukung perkembangan janin dan sel-sel baru setiap harinya.
+             Nah, semua zat gizi tersebut bisa didapat dari buah-buahan, sayur, biji-bijian, daging, kacang-kacangan, minyak nabati, dan makanan sehat lainnya.
+        </item>
+        <item>
+            Memperkenalkan perilaku makan sehat sejak dini penting lho Bunda. Tujuannya tak lain agar Si Kecil terbiasa menerapkan pola makan bergizi seimbang yang akan bertahan sampai dia menjadi insan dewasa.
+Saat usia remaja, anak mengalami perubahan tubuh yang mempengaruhi kebutuhan nutrisi dan asupan makanannya. Remaja menjadi lebih mandiri dan membuat banyak keputusan makanan sendiri. Banyak remaja mengalami lonjakan pertumbuhan dan peningkatan nafsu makan dan membutuhkan makanan bergizi seimbang guna memenuhi kebutuhan pertumbuhan mereka.
+TIdak mengherankan, remaja cenderung makan lebih banyak di luar rumah daripada anak yang lebih muda. Remaja sangat dipengaruhi oleh teman sebaya. Kenyamanan makan penting bagi banyak remaja dan bukannya tidak mungkin remaja makan terlalu banyak jenis makanan yang kurang sehat, seperti minuman manis, makanan cepat saji hingga makanan olahan yang memang mendatangkan kenyamanan namun miskin nilai gizi.
+Remaja, khususnya remaja putri, mulai peduli dengan penampilan. Remaja putri mungkin mengalami tekanan dari teman sebaya untuk menjadi kurus dan mulai membatasi makanan tanpa berkonsultasi dengan ahlinya. Membatasi asupan makanan tanpa bekal pengetahuan yang cukup rawan membuat remaja kekurangan gizi, atau malah mengalami gizi buruk karena pola makan yang tidak sehat.
+Remaja putri rentan mengalami kekurangan gizi - sebagian karena kebutuhan biologis spesifik mereka. Setelah 1000 hari pertama kehidupan, masa remaja adalah masa pertumbuhan dan perkembangan yang paling cepat dan menawarkan peluang bagi intervensi untuk meningkatkan gizi. Remaja rentan mengalami anemia defisiensi besi. Kurangnya mineral besi ini lazim dialami remaja putri usia 10 hingga 19 tahun dan remaja pria usia 10 hingga 14 tahun secara global.1
+Anemia adalah indikator gizi buruk, juga status kesehatan yang buruk dan memiliki konsekuensi kesehatan yang negatif, termasuk penurunan prestasi di sekolah pada anak-anak dan remaja karena perkembangan kognitif dan sosioemosional yang melambat, juga kesulitan dalam konsentrasi. Anemia juga dapat menyebabkan penurunan produktivitas atau partisipasi remaja.
+Healthy eating habit alias perilaku makan sehat merupakan bagian penting dari gaya hidup sehat dan merupakan sesuatu yang harus diajarkan sejak dini.
+Berikut ini beberapa panduan umum untuk membantu remaja membiasakan diri mengonsumsi makanan bergizi seimbang. Karena umumnya remaja sudah memiliki pilihan sendiri terhadap makanan, sebaiknya Bunda mengajak Si Remaja bicara terkait dengan pola makannya. Diskusikan rekomendasi makan sehat dengannya untuk memastikan anak mengikuti rencana makan sehat:\n
+1. Makan 3 kali sehari diselingi dengan camilan sehat (misalnya buah dan sayur)\n
+2. Tambahkan serat dalam makanan dan kurangi asupan garam\n
+3. Cukup minum air
+Sebisa mungkin hindari minuman yang mengandung gula tinggi. Jus buah mungkin mengandung banyak kalori, jadi batasi asupan jus buah ini kecuali kalau Bunda bisa memastikan jus buah tanpa tambahan gula. Buah utuh/potong merupakan pilihan yang lebih baik.\n
+4. Konsumsi makanan bergizi seimbang sesuai dengan kaidah Isi Piringku.\n
+5. Usahakan mengolah makanan dengan cara dipanggang atau dibakar untuk mengurangi asuan minyak.\n
+6. Dorong remaja untuk mengawasi dan mengurangi asupan gula, kurangi juga konsumsi makanan berlemak tinggi, misalnya mentega.\n
+7. Sebagai sumber protein, pilihlah ayam (tanpa kulit) dan ikan. Batasi asupan daging merah, dan pilih potongan tanpa lemak jika memungkinkan.\n
+Panduan Makan Gizi Seimbang Isi Piringku
+Kementerian Kesehatan Republik Indonesia (Kemenkes RI) memperkenalkan metode makan baru dengan gizi seimbang yaitu Isi Piringku, yang menekankan pada berapa banyak porsi makanan yang ideal, menggunakan perumpaan sajian dalam satu piring. Berikut ini panduan makan gizi seimbang Isi Piringku yang dibuat oleh Kemenkes RI:
+Makanan pokok
+Makanan pokok adalah pangan dengan karbohidrat yang sering dikonsumsi atau telah menjadi bagian dari budaya makan berbagai etnis di Indonesia sejak lama, misalnya beras, jagung, singkong, ubi, talas, sagu, dan produk olahannya misalnya roti, pasta, mi, dll. Dalam satu piring disarankan mengonsumsi makanan pokok sekitar 150 gram nasi, setara 3 centong nasi, atau 3 buah kentang ukuran sedang (300 gram), atau 1,5 gelas mi kering (75 gram).
+Lauk pauk
+Terdiri dari protein hewani dan nabati. Beberapa jenis sumber protein hewani misalnya seperti daging (sapi, kambing), unggas (ayam, bebek), ikan dan makanan laurt, telur, susu dan hasil olahannya. Sumber protein nabati antara lain tahu, tempe, dan kacang-kacangan (kacang merah, kacang tanah, kacang hijau). Dalam satu piring disarankan mengandung protein hewani sekitar 75 gram ikan kembung, setara 2 potong ayam tanpa kulit ukuran sedang (80 gr), atau 2 potong sapi ukuran sedang (70 gram). Untuk protein nabatinya, bisa dengan tahu 100 gram, atau 2 potong tempe ukuran sedang (50 gram).
+Sayur mayur
+Sayuran merupakan sumber vitamin dan mineral, terutama mengandung karoten, vitamin A, vitamin C, zat besi, dan fosfor. Sebagian vitamin dan mineral dalam sayuran berperan sebagai antioksidan. Beberapa contoh sayuran yang biasanya banyak dikonsumsi seperti terong, selada air, labu siam, rebung, kangkung, lobak, buncis, brokoli, daun singkong, tomat, wortel, bayam, dan sebagainya. Dalam satu piring setidaknya mengandung 50 gram sayur, atau sama dengan ukuran satu mangkuk ukuran sedang.
+Buah-buahan
+Buah-buahan banyak mengandung vitamin seperti vitamin A, B, B1, B6, dan C, mineral, serta serat yang juga berperan sebagai antioksidan. Konsumsi buah secara rutin dapat mencegah ragam penyakit tidak menular, seperti penyakit jantung, stroke, tekanan darah tinggi hingga kanker dan sebagainya. Contoh buah yang umum dikonsumsi seperti pisang, melon, semangka, rambutan, salak, pepaya, jambu, mangga, dan sebagainya. Dalam satu piring, konsumsi sekitar 2 potongan pepaya ukuran sedang (150 gram), setara 2 buah jeruk sedang (110 gram), atau 1 buah kecil pisang Ambon (50 gram).
+Tidak hanya makanan, panduan makan gizi seimbang Isi Piringku juga mencakup minum air putih 8 gelas per hari, mencuci tangan, dan melakukan aktivitas fisik setidaknya 150 menit dalam sepekan.
+        </item>
+    </string-array>
+    <integer-array name="detail_img">
+        <item>@drawable/img_news1</item>
+        <item>@drawable/img_news2</item>
+    </integer-array>
 </resources>
