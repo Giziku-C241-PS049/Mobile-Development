@@ -4,22 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".auth.Login"
-    android:background="@drawable/background"
+    tools:context=".auth.Register"
     android:orientation="vertical"
+    android:background="@drawable/background"
     android:gravity="center">
 
     <ImageView
-        android:layout_width="209dp"
-        android:layout_height="209dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:src="@drawable/giziku2"/>
     <EditText
         android:layout_width="317dp"
         android:layout_height="58dp"
-        android:id="@+id/email"
+        android:id="@+id/nama_daftar"
         android:layout_marginTop="40dp"
         android:padding="8dp"
-        android:hint="Email"
+        android:hint="Nama Lengkap"
         android:background="@drawable/custom_edit"
         android:drawableLeft="@drawable/ic_baseline_person_24"
         android:textColor="@color/black"
@@ -28,8 +28,20 @@
     <EditText
         android:layout_width="317dp"
         android:layout_height="58dp"
+        android:id="@+id/email"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:hint="Email"
+        android:background="@drawable/custom_edit"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:textColor="@color/black"
+        android:drawablePadding="8dp"
+        android:backgroundTint="@color/white"/>
+    <EditText
+        android:layout_width="317dp"
+        android:layout_height="58dp"
         android:id="@+id/password"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:inputType="textPassword"
         android:padding="8dp"
         android:hint="Password"
@@ -38,16 +50,18 @@
         android:textColor="@color/black"
         android:drawablePadding="8dp"
         android:backgroundTint="@color/white"/>
+
     <ProgressBar
         android:id="@+id/progresBar"
         android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+
     <Button
         android:layout_width="317dp"
         android:layout_height="58dp"
-        android:id="@+id/login"
-        android:text="Login"
+        android:id="@+id/regist"
+        android:text="Sign Up"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="10dp"
@@ -55,15 +69,16 @@
         android:textStyle="bold"
         android:textSize="18sp"
         app:cornerRadius = "14dp"/>
+
     <TextView
-        android:id="@+id/registNow"
+        android:id="@+id/loginNow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="10dp"
         android:backgroundTint="@color/login"
-        android:text="Click to Regist"
+        android:text="Click to Login"
         android:gravity="center"
         android:textStyle="bold"
         android:textSize="18sp"
