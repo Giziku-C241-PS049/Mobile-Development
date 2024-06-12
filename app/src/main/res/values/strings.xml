@@ -27,34 +27,43 @@
     <string-array name="news_title">
         <item>Pentingnya Memahami Nutrisi, Samakah dengan Zat Gizi?</item>
         <item>Pentingnya Edukasi Gizi dan Kebiasaan makan Sehat untuk Remaja</item>
+        <item>Membangun kebiasaan makan yang sehat pada anak</item>
+        <item>Generasi Z dan Transformasi Gaya Hidup Sehat di Era Digital</item>
+        <item>Pilar Utama Dalam Prinsip Gizi Seimbang</item>
     </string-array>
     <string-array name="news_author">
         <item>Rizky Adrian</item>
         <item>Nutrisi Untuk Bangsa</item>
+        <item>UNICEF</item>
+        <item>Kumparan.Com</item>
+        <item>Dian Eka Yuningsih, AMG</item>
     </string-array>
     <string-array name="publish_time">
         <item>22 Februari 2024</item>
         <item>16 Agustus 2020</item>
+        <item>28 Maret 2022</item>
+        <item>16 Januari 2024</item>
+        <item>06 Juli 2022</item>
     </string-array>
     <string-array name="news_desc">
-        <item>Kata “nutrisi” cukup umum, tetapi masih banyak yang keliru dalam memahaminya. Kata ini sering kali disamakan dengan zat gizi, padahal jelas berbeda. Supaya Anda tidak salah lagi memahaminya, simak penjelasannya berikut ini.
-              Apa itu nutrisi?
+        <item>Kata “nutrisi” cukup umum, tetapi masih banyak yang keliru dalam memahaminya. Kata ini sering kali disamakan dengan zat gizi, padahal jelas berbeda. Supaya Anda tidak salah lagi memahaminya, simak penjelasannya berikut ini.\n
+              <b>Apa itu nutrisi?\n</b>
               Nutrisi adalah asupan makanan dalam kaitannya dengan kebutuhan diet sehat untuk tubuh.
               Bila mengacu pada Kamus Besar Bahasa Indonesia, nutrisi adalah proses pemasukan dan pengolahan zat makanan oleh tubuh; makanan bergizi; dan ilmu tentang gizi.
               Nutrisi yang tepat, dalam artian makanan bergizi, menjadi kunci untuk mencegah berkembangnya penyakit kronis dan membuat seseorang dapat hidup sehat serta panjang umur.
               Tidak hanya berumur lebih panjang, tapi Anda juga memiliki hidup yang lebih berkualitas.
-              Bagi orang dengan masalah kesehatan tertentu, menentukan nutrisi yang sesuai dengan arahan dokter gizi, ahli gizi, atau dietitian dapat membantu mengelola gejala dan mencegah terjadinya komplikasi.
-            Beda nutrisi dengan zat gizi.
-             Setelah memahami penjelasan di atas, Anda tentu paham jika nutrisi berbeda dengan zat gizi.
-             Nutrisi lebih mengarah pada proses makanan  yang dicerna oleh tubuh, sedangkan zat gizi adalah senyawa aktif yang digunakan tubuh agar bisa berfungsi normal.
-             Zat gizi ini kemudian terbagi menjadi dua, yakni zat gizi makro dan zat gizi mikro. Zat gizi makro diperlukan tubuh dalam jumlah besar, misalnya karbohidrat, lemak, dan protein yang memberi tubuh energi.
-             Sementara zat gizi mikro diperlukan tubuh dalam jumlah yang lebih sedikit yang mencangkup vitamin dan mineral, seperti zat besi, vitamin A, vitamin D, yodium, asam folat, dan zink.
-             Berikut ini adalah peran dari zat gizi mikro bagi tubuh.
-             Membentuk sel darah.
-             Meningkatkan sistem imun agar tidak mudah sakit.
-             Membangun tulang dan gigi.
-            Mendukung perkembangan janin dan sel-sel baru setiap harinya.
-             Nah, semua zat gizi tersebut bisa didapat dari buah-buahan, sayur, biji-bijian, daging, kacang-kacangan, minyak nabati, dan makanan sehat lainnya.
+              Bagi orang dengan masalah kesehatan tertentu, menentukan nutrisi yang sesuai dengan arahan dokter gizi, ahli gizi, atau dietitian dapat membantu mengelola gejala dan mencegah terjadinya komplikasi.\n
+              Beda nutrisi dengan zat gizi.\n
+              Setelah memahami penjelasan di atas, Anda tentu paham jika nutrisi berbeda dengan zat gizi.
+              Nutrisi lebih mengarah pada proses makanan  yang dicerna oleh tubuh, sedangkan zat gizi adalah senyawa aktif yang digunakan tubuh agar bisa berfungsi normal.
+              Zat gizi ini kemudian terbagi menjadi dua, yakni zat gizi makro dan zat gizi mikro. Zat gizi makro diperlukan tubuh dalam jumlah besar, misalnya karbohidrat, lemak, dan protein yang memberi tubuh energi.
+              Sementara zat gizi mikro diperlukan tubuh dalam jumlah yang lebih sedikit yang mencangkup vitamin dan mineral, seperti zat besi, vitamin A, vitamin D, yodium, asam folat, dan zink.
+              Berikut ini adalah peran dari zat gizi mikro bagi tubuh :\n
+              1. Membentuk sel darah.\n
+              2. Meningkatkan sistem imun agar tidak mudah sakit.\n
+              3. Membangun tulang dan gigi.\n
+              4. Mendukung perkembangan janin dan sel-sel baru setiap harinya.\n
+              Nah, semua zat gizi tersebut bisa didapat dari buah-buahan, sayur, biji-bijian, daging, kacang-kacangan, minyak nabati, dan makanan sehat lainnya.
         </item>
         <item>
             Memperkenalkan perilaku makan sehat sejak dini penting lho Bunda. Tujuannya tak lain agar Si Kecil terbiasa menerapkan pola makan bergizi seimbang yang akan bertahan sampai dia menjadi insan dewasa.
@@ -85,9 +94,96 @@ Buah-buahan
 Buah-buahan banyak mengandung vitamin seperti vitamin A, B, B1, B6, dan C, mineral, serta serat yang juga berperan sebagai antioksidan. Konsumsi buah secara rutin dapat mencegah ragam penyakit tidak menular, seperti penyakit jantung, stroke, tekanan darah tinggi hingga kanker dan sebagainya. Contoh buah yang umum dikonsumsi seperti pisang, melon, semangka, rambutan, salak, pepaya, jambu, mangga, dan sebagainya. Dalam satu piring, konsumsi sekitar 2 potongan pepaya ukuran sedang (150 gram), setara 2 buah jeruk sedang (110 gram), atau 1 buah kecil pisang Ambon (50 gram).
 Tidak hanya makanan, panduan makan gizi seimbang Isi Piringku juga mencakup minum air putih 8 gelas per hari, mencuci tangan, dan melakukan aktivitas fisik setidaknya 150 menit dalam sepekan.
         </item>
+        <item>
+            Makanan berkualitas dan gizi adalah landasan kesehatan anak dan manfaatnya dapat dirasakan seumur hidup. Dengan mengajarkan anak tentang kebiasaan makan yang sehat sejak dini, mereka akan memiliki hubungan yang positif dengan makanan hingga tumbuh dewasa. Membangun kebiasaan yang baik juga bisa menyenangkan dan sehat, tidak hanya untuk anak tetapi juga seluruh keluarga. Tidak percaya? Simak enam cara berikut.\n
+1. Membentuk kebiasaan baik\n
+Anak kecil meniru apa pun yang dilakukan orang dewasa, termasuk pada waktu makan. Orang tua bisa menjadi contoh dengan memperlihatkan pilihan makanan, minuman, dan kudapan sehat serta rajin beraktivitas fisik yang menyenangkan. Sajian berupa makanan sehat dan segar adalah contoh terbaik bagi anak.
+Orang tua juga bisa melibatkan anak berbelanja dan menyiapkan makanan. Anak-anak biasanya senang diajak memasak makanan lezat dan sehat untuk keluarga.
+Gunakan waktu makan sebagai kesempatan belajar. Ajak anak untuk mengenal kelompok-kelompok makanan dan kandungan gizi dan vitamin yang dibutuhkan tubuh.\n
+2. Menjaga hubungan yang sehat dengan makanan.\n
+Pola pikir yang sehat terkait makanan sangat penting bagi kesehatan seseorang di sepanjang hidupnya. Hal ini dapat melindungi kita dari penyakit seperti jantung, kanker, dan diabetes. Bantu anak membangun pola pikir ini dengan:
+Membantu mereka mengenal rasa lapar secara fisik. Dengan begitu, anak menjadi tahu kebutuhan tubuhnya.
+Menghindari menggunakan makanan sebagai hadiah atau hukuman. Cara ini justru membuat anak memiliki hubungan yang tidak sehat dengan makanan.
+Menghindari melarang makanan tertentu, seperti permen. Hal ini bisa membuat anak justru makin menginginkan makanan itu.
+Alih-alih melarang makanan dan minuman tidak sehat yang tinggi gula, garam, dan lemak (misalnya, gorengan, martabak manis, cokelat, permen, minuman bersoda, keripik kentang), lebih baik kurangi porsi dan frekuensi memakannya (jangan setiap hari). Jelaskan kepada anak alasan makanan tertentu lebih sehat dibandingkan makanan lainnya. Misalnya, jika anak menginginkan makanan manis, jelaskan mengapa makanan segar dengan gula alami—seperti sepotong buah—lebih baik dibandingkan makanan olahan, seperti sereal yang sudah ditambahkan gula. Jika anak berperilaku baik, berikan apresiasi dengan hal-hal selain makanan, misalnya melakukan aktivitas seru bersama keluarga.\n
+3. Jangan paksa anak menghabiskan makanan\n
+Bagi orang tua, menghabiskan makanan mungkin sama dengan meningkatkan asupan gizi anak. Akan tetapi, memaksa anak untuk selalu menghabiskan makanannya bisa membuat mereka tidak menyukai makanan itu atau memiliki asosiasi negatif dengan waktu makan. Jika anak menolak makan sayur, contohkan bahwa Anda suka dan menikmati sayur. Anak mempelajari pilihan makanan dari orang tuanya, jadi berikan contoh dan tularkan kebiasaan baik sebanyak mungkin. Mulailah dengan menawarkan buah atau sayur sedikit demi sedikit, kombinasikan dengan makanan sehat lainnya, atau meminta anak yang memilih agar makanan bisa dicicipi bersama-sama. Agar makanan tampak menarik, tata buah dan sayur dengan mengombinasikan bentuk dan warna. Ingat, anak mungkin perlu beberapa kali dibujuk hingga mau mencoba dan menyukai makanan baru. Jangan menyerah!\n
+4. Utamakan mengatur porsi\n
+Porsi yang terlalu besar bisa menyebabkan kenaikan berat badan, jadi sangat penting anak-anak tahu porsi makan yang ideal. Cara termudah untuk mengajarkan mereka adalah dengan menggunakan petunjuk visual: satu kepal tangan untuk porsi nasi, pasta, atau serealia; ukuran telapak tangan mereka untuk porsi daging; dan lemak seperti mentega hanya sebesar ujung ibu jari mereka.\n
+5. Mengawali hari dengan sarapan sehat\n
+Pagi hari adalah waktu yang tersibuk untuk banyak keluarga. Namun, sarapan seimbang akan memberikan asupan penting, seperti kalsium dan serat, yang dibutuhkan anak untuk tumbuh kembangnya. Daripada sarapan dengan sereal atau roti-rotian yang cenderung tinggi kalori namun rendah nilai gizi, lebih baik menyajikan menu sarapan khas Indonesia, seperti nasi uduk dan gado-gado yang merupakan makanan padat gizi, atau, sajikan buah. Dengan makanan sehat, anak akan merasa lebih kenyang untuk waktu yang lebih panjang.\n
+6. Buat kegiatan yang menyenangkan\n
+Anak-anak perlu melakukan aktivitas fisik selama minimal 60 menit per hari. Kenapa tidak dijadikan aktivitas keluarga? Aktivitas yang bisa dilakukan semua anggota keluarga, misalnya, berjalan kaki setelah makan malam atau berenang. Anda juga bisa lakukan kegiatan spontan, misalnya menari saat mendengar lagu kesukaan di radio. Selain itu, penggunaan gawai, yang membuat anak sedikit bergerak, perlu dibatasi waktunya (rekomendasi WHO adalah tidak lebih dari satu jam per hari untuk anak usia 2-4 tahun). Anak perlu diarahkan agar lebih banyak melakukan kegiatan yang menuntut gerakan.\n
+Makanan sehat dan kegiatan yang seru setiap hari akan mendukung perkembangan anak, meningkatkan kualitas kesehatan anak, dan menyiapkan mereka agar dapat mengambil pilihan-pilihan yang sehat saat dewasa kelak.
+        </item>
+        <item>
+            Generasi Z tumbuh dewasa di tengah revolusi digital yang memengaruhi setiap aspek kehidupan mereka. Salah satu aspek yang mengalami perubahan signifikan adalah gaya hidup sehat. Dalam era ini, Generasi Z menunjukkan kecenderungan unik dalam mengadaptasi gaya hidup sehat yang berbeda dari generasi sebelumnya.
+Perkembangan teknologi, terutama smartphone dan akses internet yang mudah, telah memberikan dampak besar terhadap aktivitas fisik Generasi Z.
+Menurut studi yang diterbitkan dalam jurnal "Digital Health" oleh Smith et al. (2019), 75% dari Generasi Z melaporkan menggunakan perangkat seluler mereka untuk mengakses informasi kesehatan dan kebugaran. Dengan demikian, Generasi Z tidak hanya menjadi konsumen pasif informasi, tetapi juga aktif terlibat dalam merancang pola hidup sehat mereka.\n \n
+            Tren Diet dan Nutrisi di Kalangan Generasi Z\n
+Gen Z juga menunjukkan perubahan dalam tren diet dan pola makan. Menurut penelitian yang dipublikasikan di "Journal of Adolescent Health" oleh Brown et al. (2020), ada peningkatan kesadaran nutrisi di kalangan Generasi Z. Mereka cenderung mencari informasi nutrisi secara online dan lebih memilih pola makan yang seimbang dan berfokus pada bahan-bahan alami.
+Namun, sumber-sumber online juga dapat menjadi bumerang. "The Journal of Nutrition Education and Behavior" melaporkan bahwa informasi kesehatan yang tidak terverifikasi dapat menyebabkan kebingungan dan kecemasan terkait makanan di kalangan Generasi Z. Oleh karena itu, penting bagi mereka untuk mengembangkan literasi nutrisi yang kuat dan dapat membedakan sumber informasi yang kredibel.\n \n
+            Peran Media Sosial dalam Mendorong Gaya Hidup Sehat\n
+Generasi Z memiliki keterlibatan yang tinggi dalam media sosial, dan ini memainkan peran besar dalam membentuk persepsi mereka tentang kecantikan dan kesehatan. Menurut penelitian yang diterbitkan dalam "Journal of Health Communication" oleh Lee et al. (2021), media sosial dapat menjadi platform positif untuk memotivasi gaya hidup sehat.
+Namun, sumber yang sama juga menyatakan bahwa tekanan sosial dari media sosial dapat menciptakan standar yang tidak realistis, memicu masalah kesehatan mental dan ketidakpuasan tubuh.\n \n
+            Olahraga dan Aktivitas Fisik dalam Gaya Hidup Sehat\n
+Generasi Z menunjukkan minat yang meningkat dalam olahraga dan aktivitas fisik, tetapi dengan pendekatan yang berbeda. "Journal of Physical Activity and Health" melaporkan bahwa sebagian besar Generasi Z lebih memilih olahraga yang lebih fleksibel, seperti yoga, pilates, dan latihan interval tinggi (HIIT). Hal ini menunjukkan kecenderungan untuk mencari bentuk-bentuk aktivitas yang dapat diakses di mana saja, bahkan di dalam rumah.\n \n
+Pentingnya Pendidikan Kesehatan di Kalangan Generasi Z\n
+Pendidikan kesehatan memiliki peran krusial dalam membentuk perilaku Generasi Z terkait kesehatan. Program pendidikan kesehatan yang interaktif dan terkini dapat lebih berhasil mencapai tujuan kesehatan generasi ini.
+Oleh karena itu, penyelenggaraan program pendidikan kesehatan di sekolah dan dalam lingkungan digital menjadi semakin penting guna memberikan pemahaman yang benar dan memberdayakan Generasi Z dalam mengelola kesehatan mereka.\n \n
+            Dampak Kesehatan Mental dalam Gaya Hidup Generasi Z\n
+Selain perubahan dalam aspek fisik, kesehatan mental juga menjadi perhatian utama di kalangan Generasi Z. "Journal of Adolescent Psychiatry" melaporkan bahwa tingkat stres dan kecemasan meningkat di antara Generasi Z, seiring dengan tuntutan akademis dan sosial yang semakin berat. Oleh karena itu, pendekatan holistik terhadap kesehatan, yang mencakup kesehatan mental, menjadi semakin penting.\n \n
+            Pentingnya Kesadaran Lingkungan dan Keberlanjutan\n
+Generasi Z juga menunjukkan kecenderungan meningkatnya kesadaran lingkungan. "International Journal of Sustainable Development and World Ecology" menyebutkan bahwa faktor-faktor seperti perubahan iklim dan polusi telah memotivasi generasi ini untuk mengadopsi gaya hidup yang lebih berkelanjutan. Mulai dari pemilihan bahan makanan hingga pemilihan produk ramah lingkungan, Generasi Z memainkan peran penting dalam mengubah arah menuju keberlanjutan global.\n \n
+Tantangan dalam Menjaga Gaya Hidup Sehat di Era Digital\n
+Meskipun perubahan positif yang terlihat, Generasi Z juga dihadapkan pada beberapa tantangan dalam menjaga gaya hidup sehat mereka. Dengan adanya tekanan dari media sosial, kurangnya regulasi terhadap konten kesehatan online, dan kurangnya literasi kesehatan mental, mereka dapat dengan mudah terjebak dalam norma yang tidak sehat.\n \n
+Peran Pendidikan dan Pembimbingan Orang Tua\n
+Pendidikan dan pembimbingan orang tua memainkan peran sentral dalam membentuk kebiasaan hidup sehat Generasi Z. Studi yang dilakukan oleh "Journal of Family Medicine and Primary Care" menunjukkan bahwa dukungan dan pengawasan orang tua dapat memberikan pengaruh positif terhadap pilihan gaya hidup anak-anak mereka. Oleh karena itu, penting bagi orang tua untuk terlibat aktif dalam pendidikan kesehatan anak-anak mereka.
+        </item>
+        <item>
+            Gizi seimbang  adalah susunan asupan sehari-hari yang jenis dan jumlah zat gizinya sesuai dengan kebutuhan tubuh. Pemenuhan asupan gizi ini juga harus memperhatikan prinsip keanekaragaman pangan, aktivitas fisik, perilaku hidup bersih, dan mempertahankan berat badan normal guna mencegah masalah gizi.
+Dalam prinsipnya, gizi seimbang terdiri dari 4 pilar, yang pada dasarnya merupakan upaya untuk menyeimbangkan antara zat gizi yang keluar dan zat gizi yang masuk dengan mengontrol berat badan secara teratur. Adapun 4 pilar gizi seimbang tersebut, yaitu: \n
+
+1.  Konsumsi makanan dengan beraneka ragam \n
+
+Makanan yang kita makan menyumbangkan zat-zat gizi yang beragam, sehingga tidak ada makanan yang lengkap kandungan zat gizinya, terkecuali ASI untuk bayi 0-6 bln. Sehingga kita dianjurkan untuk mengonsumsi beraneka ragam makanan dan beraneka ragam warna.  Sebagai contoh sumber karbohidrat merupakan sumber utama kalori, namun rendah vitamin dan mineral. Selain itu, sayur dan buah juga kaya akan vitamin, mineral, dan serat, namun rendah kalori dan protein.
+
+Dalam satu sumber zat gizi kita harus mengonsumsi beraneka ragam makanan. Seperti sumber karbohidrat dapat kita penuhi dari nasi, mie, umbi-umbian, tepung-tepungan sekitar 3- 4 porsi sehari. Sumber protein kita dapat penuhi dari ikan, daging ayam, daging sapi, telur, tahu, tempe dan kacang-kacangan sekitar 2- 4 porsi sehari. Sumber vitamin dapat kita penuhi dari sayur dan buah-buahan yang beraneka ragam warna masing-masing sekitar 2-3 porsi buah per hari dan 3-4 porsi sayur per hari. Buah dan sayur ini hendaknya dikonsumsi keduanya dan bukanlah dipilih salah satu berdasarkan kesukaan karena vitamin dan mineral yang dikandungnya berbeda fungsi dalam tubuh kita. Batasi konsumsi gula garam dan minyak, pilihlah makanan jadi dengan melihat komposisi bahan makanan tambahan yang dikandungnya.
+
+Akan tetapi, konsumsi makanan yang beraneka ragam ini harus dalam proporsi makanan yang seimbang, jumlah yang cukup, tidak berlebihan, dan dilakukan secara teratur. Kita dapat menerapkan prinsip Isi Piringku yang sesuai dengan kebutuhan masing-masing individu, sehingga keseimbangan gat gizi dapat terpenuhi. Seperti yang dijelaskan pada gambar dibawah ini. \n
+
+
+
+2.  Pola hidup aktif dan berolahraga \n
+
+Pola hidup aktif dilakukan dengan aktivitas fisik. Aktivitas fisik adalah segala macam kegiatan tubuh, termasuk olahraga. Aktivitas fisik merupakan upaya  tubuh dalam menyeimbangkan keluar dan masuknya zat gizi, terutama sumber energi utama dalam tubuh. Selain itu, aktivitas fisik juga dapat memperlancar sistem metabolisme tubuh, tak terkecuali metabolisme zat gizi. Untuk meningkatkan aktivitas fisik kita dapat menambahkan olah raga setidaknya  3 kali seminggu dengan durasi 30 menit per sesi. Agar keseimbangan zat gizi dalam tubuh dapat terpelihara. \n
+
+3.  Menerapkan pola hidup bersih dan sehat \n
+
+Menurut Undang-Undang Nomor 36 Tahun 2009 Tentang Kesehatan, sehat adalah keadaan sehat baik secara fisik, mental, spiritual, maupun sosial yang memungkinkan setiap orang untuk hidup produktif secara sosial dan ekonomis.
+
+Dengan menerapkan pola hidup bersih dan sehat (PHBS), kita dapat menghindarkan dari penyakit infeksi. Bahkan 45% penyakit diare bisa dicegah dengan mencuci tangan. Waktu untuk mencuci tangan dengan air bersih dan sabun antara lain: \n
+
+1) Sebelum dan sesudah memegang makanan; \n
+
+2) Sesudah buang air kecil dan buang air besar; \n
+
+3) Sesudah memegang binatang; \n
+
+4) Sesudah berkebun; \n
+
+5) Sesudah bermain \n
+
+4.  Menjaga berat badan ideal \n
+
+Salah satu indikator yang menunjukkan bahwa telah terjadi keseimbangan gizi di dalam tubuh adalah memiliki berat badan yang normal dalam Indeks Masa Tubuh (IMT). Pemantauan berat badan dapat dilakukan dengan mengukur berat badan per tinggi badan kuadrat  dalam meter  dengan panduan sebagai tertera di gambar. \n
+        </item>
     </string-array>
     <integer-array name="detail_img">
         <item>@drawable/img_news1</item>
         <item>@drawable/img_news2</item>
+        <item>@drawable/img_news3</item>
+        <item>@drawable/img_news4</item>
+        <item>@drawable/img_news5</item>
     </integer-array>
 </resources>
