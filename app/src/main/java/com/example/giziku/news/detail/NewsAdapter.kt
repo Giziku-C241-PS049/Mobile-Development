@@ -1,4 +1,4 @@
-package com.example.giziku.news
+package com.example.giziku.news.detail
 
 import android.content.Intent
 import android.view.LayoutInflater
@@ -8,7 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.giziku.R
-import com.example.giziku.news.detail.DetailNewsActivity
+import com.example.giziku.news.main.News
 
 class NewsAdapter (private val listNews: ArrayList<News>) : RecyclerView.Adapter<NewsAdapter.ListViewHolder>() {
     private lateinit var onItemClickCallback: OnItemClickCallback

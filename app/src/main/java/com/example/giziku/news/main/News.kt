@@ -1,4 +1,4 @@
-package com.example.giziku.news
+package com.example.giziku.news.main
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

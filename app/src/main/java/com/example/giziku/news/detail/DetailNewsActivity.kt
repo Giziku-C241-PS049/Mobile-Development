@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 import com.example.giziku.R
-import com.example.giziku.news.News
+import com.example.giziku.news.main.News
 
 class DetailNewsActivity : AppCompatActivity(){
 

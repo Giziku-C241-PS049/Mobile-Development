@@ -1,6 +1,5 @@
 package com.example.giziku.news.main
 
-import android.content.ClipData
 import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -10,8 +9,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.giziku.R
 import com.example.giziku.databinding.FragmentMainNewsBinding
-import com.example.giziku.news.News
-import com.example.giziku.news.NewsAdapter
+import com.example.giziku.news.detail.NewsAdapter
 import com.example.giziku.news.detail.DetailNewsActivity
 
 
