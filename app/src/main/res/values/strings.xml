@@ -3,6 +3,7 @@
     <string name="settings">Setting\n</string>
     <string name="gallery">Galeri</string>
     <string name="analyze">Analyze</string>
+    <string name="open_camera">Open Camera</string>
     <string name="rekomendasi_makanan">Rekomendasi Makanan</string>
     <string name="berita">Berita</string>
     <string name="home">Home</string>
@@ -13,13 +14,63 @@
     <string name="news_health">Berita Kesehatan</string>
     <string name="dummy_img">Dummy News Photo</string>
     <string name="result_prediction">result</string>
-    <string name="nutrition">Nutrition :</string>
-    <string name="dummy_nutrition">Berserat, dsb</string>
+    <string name="food_name">Nama Makanan:</string>
+    <string name="dummy_food">Bakso</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title2">Judul Berita</string>
     <string name="news_author2">Penulis Berita</string>
     <string name="publish_time2">Waktu publish</string>
     <string name="news_desc2">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</string>
+    <string name="image_classifier_failed">Images classifier failed to initialize</string>
+    <string name="history">History</string>
+    <string name="result">Hasil Analisis</string>
+    <string name="bakso">Nama Makanan : Bakso</string>
+    <string name="calories">Kalori : 57.0 gram</string>
+    <string name="fat">Lemak : 3.69 gram</string>
+    <string name="carbohydrates">Karbohidrat : 2.12 gram</string>
+    <string name="protein">Protein : 3.47 gram</string>
+    <string name="recommendation_gain_weight">Makanan untuk membesarkan badan: Protein tinggi, Karbohidrat kompleks, Lemak sehat.</string>
+    <string name="recommendation_lose_weight">Makanan untuk mengecilkan badan: Sayuran hijau, Buah-buahan, Protein rendah lemak.</string>
+    <string name="recommendation_maintain_weight">Berat badan Anda saat ini sudah ideal. Pertahankan pola makan dan aktivitas fisik yang sehat untuk menjaga berat badan Anda tetap stabil.</string>
+
+    <string-array name="label_map">
+        <item>anggur</item>
+        <item>apel</item>
+        <item>ayam_betutu</item>
+        <item>ayam_goreng</item>
+        <item>ayam_pop</item>
+        <item>bakso</item>
+        <item>batagor</item>
+        <item>burger</item>
+        <item>cherry</item>
+        <item>cireng</item>
+        <item>coto_makassar</item>
+        <item>dendeng</item>
+        <item>gudeg</item>
+        <item>gulai_ikan</item>
+        <item>jeruk</item>
+        <item>kerak_telor</item>
+        <item>kiwi</item>
+        <item>mangga</item>
+        <item>mie_aceh</item>
+        <item>nasi_goreng</item>
+        <item>nasi_kuning</item>
+        <item>nasi_padang</item>
+        <item>nasi_pecel</item>
+        <item>pempek</item>
+        <item>pisang</item>
+        <item>rawon</item>
+        <item>rendang</item>
+        <item>sate</item>
+        <item>sawo</item>
+        <item>serabi</item>
+        <item>soto</item>
+        <item>strawberi</item>
+        <item>tahu_sumedang</item>
+        <item>telur_balado</item>
+        <item>telur_dadar</item>
+    </string-array>
+
 
 
     <string-array name="news_title">

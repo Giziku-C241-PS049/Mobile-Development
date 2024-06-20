@@ -27,7 +27,7 @@
             card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintStart_toStartOf="parent"
             card_view:layout_constraintTop_toTopOf="parent"
-            tools:src="@drawable/dummy_news_photo" />
+            tools:src="@drawable/bakso" />
 
         <TextView
             android:id="@+id/news_result"
@@ -55,9 +55,9 @@
             android:fontFamily="@font/lato_semi_bold"
             card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintStart_toStartOf="parent"
-            tools:text="@string/nutrition" />
+            tools:text="@string/food_name" />
         <TextView
-            android:id="@+id/confidence_store"
+            android:id="@+id/confidence_food"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
@@ -68,7 +68,7 @@
             android:fontFamily="@font/lato_bold"
             card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintStart_toEndOf="@+id/confidence_text"
-            tools:text="@string/dummy_nutrition" />
+            tools:text="@string/dummy_food" />
 
         <ImageButton
             android:id="@+id/btn_delete"

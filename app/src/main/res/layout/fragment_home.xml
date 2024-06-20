@@ -30,9 +30,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/guideline_2"
+        app:layout_constraintBottom_toTopOf="@+id/buttonCamera"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/guideline"
@@ -47,29 +46,44 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintGuide_percent="0.75"/>
 
-
     <ImageButton
-        android:id="@+id/buttonGallery"
-        android:background="@drawable/input_image"
+        android:id="@+id/buttonCamera"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/gallery"
+        android:src="@drawable/open_camera"
+        android:background="@null"
+        android:contentDescription="@string/open_camera"
+        app:layout_constraintBottom_toTopOf="@+id/buttonGallery"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonGallery"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/input_image"
+        android:background="@null"
+        android:contentDescription="@string/gallery"
         app:layout_constraintBottom_toTopOf="@+id/buttonAnalyze"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:id="@+id/buttonAnalyze"
-        android:background="@drawable/analyze"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/analyze"
+        android:src="@drawable/analyze"
+        android:background="@null"
+        android:contentDescription="@string/analyze"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

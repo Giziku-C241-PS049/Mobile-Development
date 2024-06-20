@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".news.main.MainNewsFragment">
+    tools:context=".view.news.main.MainNewsFragment">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -20,6 +20,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginBottom="15dp"
         android:text="@string/news_health"
+        android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline" />

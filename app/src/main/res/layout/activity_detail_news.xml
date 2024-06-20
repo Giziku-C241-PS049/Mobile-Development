@@ -5,7 +5,7 @@
     android:id="@+id/detail_news"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".news.detail.DetailNewsActivity">
+    tools:context=".view.news.detail.DetailNewsActivity">
 
     <ScrollView
         android:layout_width="match_parent"

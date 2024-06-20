@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/navigation_news"
-        android:name="com.example.giziku.news.main.MainNewsFragment"
+        android:name="com.example.giziku.view.news.main.MainNewsFragment"
         android:label="@string/text_news"
         tools:layout="@layout/fragment_main_news" />
 
