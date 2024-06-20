@@ -55,18 +55,5 @@
         android:textStyle="bold"
         android:textSize="18sp"
         app:cornerRadius = "14dp"/>
-    <TextView
-        android:id="@+id/registNow"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="10dp"
-        android:backgroundTint="@color/login"
-        android:text="Click to Regist"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:textSize="18sp"
-        app:cornerRadius = "14dp"/>
 
 </LinearLayout>

@@ -19,61 +19,44 @@ class Login : AppCompatActivity() {
     private lateinit var email: EditText
     private lateinit var password: EditText
     private lateinit var login: Button
-    private lateinit var mAuth: FirebaseAuth
     private lateinit var progressBar: ProgressBar
-    private lateinit var textView: TextView
+    private lateinit var registNow: TextView
 
-    override fun onStart() {
-        super.onStart()
-        mAuth = FirebaseAuth.getInstance()  // Initialize mAuth here to avoid NullPointerException
-        val currentUser: FirebaseUser? = mAuth.currentUser
-        if (currentUser != null) {
-            val intent = Intent(applicationContext, MainActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
-    }
+    private lateinit var mAuth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
         mAuth = FirebaseAuth.getInstance()
+
         email = findViewById(R.id.email)
         password = findViewById(R.id.password)
         login = findViewById(R.id.login)
         progressBar = findViewById(R.id.progresBar)
-        textView = findViewById(R.id.registNow)
-
-        textView.setOnClickListener {
-            val intent = Intent(applicationContext, Register::class.java)
-            startActivity(intent)
-            finish()
-        }
+        
 
         login.setOnClickListener {
-            progressBar.visibility = View.VISIBLE
-            val emailStr: String = email.text.toString()
-            val passwordStr: String = password.text.toString()
+            val emailStr = email.text.toString()
+            val passwordStr = password.text.toString()
 
             if (TextUtils.isEmpty(emailStr)) {
                 Toast.makeText(this@Login, "Masukkan Email", Toast.LENGTH_SHORT).show()
-                progressBar.visibility = View.GONE
                 return@setOnClickListener
             }
             if (TextUtils.isEmpty(passwordStr)) {
                 Toast.makeText(this@Login, "Masukkan Password", Toast.LENGTH_SHORT).show()
-                progressBar.visibility = View.GONE
                 return@setOnClickListener
             }
+
+            progressBar.visibility = View.VISIBLE
 
             mAuth.signInWithEmailAndPassword(emailStr, passwordStr)
                 .addOnCompleteListener { task ->
                     progressBar.visibility = View.GONE
                     if (task.isSuccessful) {
                         Toast.makeText(this@Login, "Login Berhasil", Toast.LENGTH_SHORT).show()
-                        val intent = Intent(applicationContext, MainActivity::class.java)
-                        startActivity(intent)
+                        startActivity(Intent(this@Login, MainActivity::class.java))
                         finish()
                     } else {
                         Toast.makeText(this@Login, "Authentication failed.", Toast.LENGTH_SHORT).show()
