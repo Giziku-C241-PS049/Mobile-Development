@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "433398255439",
+    "firebase_url": "https://giziku-80e78-default-rtdb.firebaseio.com",
+    "project_id": "giziku-80e78",
+    "storage_bucket": "giziku-80e78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433398255439:android:c79b446550221f13d6ff3a",
+        "android_client_info": {
+          "package_name": "com.example.giziku"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQzqO-nnAswn7-EzIyg_9Ifw0a_qXgEBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
