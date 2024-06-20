@@ -87,14 +87,6 @@
                 android:backgroundTint="@color/white"/>
 
             <Button
-                android:id="@+id/btn_edit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Edit Profile"
-                android:backgroundTint="#2c59e6"
-                android:textSize="12sp"
-                android:layout_gravity="center"/>
-            <Button
                 android:id="@+id/btn_logout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
