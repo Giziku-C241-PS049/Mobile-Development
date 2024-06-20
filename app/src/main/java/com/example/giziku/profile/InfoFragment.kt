@@ -56,19 +56,6 @@ class InfoFragment : Fragment() {
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
             startActivity(intent)
         }
-        view?.findViewById<Button>(R.id.btn_edit)?.setOnClickListener {
-            //val intent = Intent(this@Profile_Fragment.requireContext(), Login::class.java)
-            val intent = Intent(this@InfoFragment.requireContext(), EditProfile::class.java)
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
-            startActivity(intent)
-        }
-
-        val editButton = view?.findViewById<Button>(R.id.btn_edit)
-
-        editButton?.setOnClickListener {
-            val intent = Intent(this@InfoFragment.requireContext(), EditProfile::class.java)
-            startActivityForResult(intent, EDIT_PROFILE_REQUEST_CODE)
-        }
 
         val nama = view?.findViewById<TextView>(R.id.result_username)
         val email = view?.findViewById<TextView>(R.id.result_email)

@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 import com.example.giziku.MainActivity
 import com.example.giziku.R
+import com.example.giziku.auth.Auth
 
 class SplashScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,7 +15,7 @@ class SplashScreenActivity : AppCompatActivity() {
 
         @Suppress("DEPRECATED")
         Handler().postDelayed(Runnable {
-            val intent = Intent(this@SplashScreenActivity, MainActivity::class.java)
+            val intent = Intent(this@SplashScreenActivity, Auth::class.java)
             startActivity(intent)
             finish()
         }, 3000)

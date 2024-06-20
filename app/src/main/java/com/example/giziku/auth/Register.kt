@@ -13,6 +13,8 @@ import android.widget.Toast
 import com.example.giziku.MainActivity
 import com.example.giziku.R
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
+import com.google.firebase.auth.UserProfileChangeRequest
 
 class Register : AppCompatActivity() {
     private lateinit var namaDaftar: EditText
@@ -60,9 +62,18 @@ class Register : AppCompatActivity() {
                 .addOnCompleteListener { task ->
                     progressBar.visibility = View.GONE
                     if (task.isSuccessful) {
-                        Toast.makeText(this@Register, "Akun Berhasil Dibuat", Toast.LENGTH_SHORT).show()
-                        startActivity(Intent(this@Register, MainActivity::class.java))
-                        finish()
+                        val user = mAuth.currentUser
+                        val profileUpdates = UserProfileChangeRequest.Builder()
+                            .setDisplayName(nama)
+                            .build()
+                        user?.updateProfile(profileUpdates)
+                            ?.addOnCompleteListener { profileUpdateTask ->
+                                if (profileUpdateTask.isSuccessful) {
+                                    Toast.makeText(this@Register, "Akun Berhasil Dibuat", Toast.LENGTH_SHORT).show()
+                                    startActivity(Intent(this@Register, MainActivity::class.java))
+                                    finish()
+                                }
+                            }
                     } else {
                         Toast.makeText(this@Register, "Authentication failed.", Toast.LENGTH_SHORT).show()
                     }

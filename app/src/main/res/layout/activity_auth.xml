@@ -23,7 +23,7 @@
             android:layout_width="317dp"
             android:layout_height="58dp"
             android:id="@+id/login"
-            android:text="Login"
+            android:text="Sign In"
             android:layout_gravity="center"
             android:layout_marginTop="50dp"
             android:layout_marginBottom="10dp"
@@ -34,7 +34,7 @@
             android:layout_width="317dp"
             android:layout_height="58dp"
             android:id="@+id/regist"
-            android:text="sign up"
+            android:text="Sign Up"
             android:layout_gravity="center"
             android:textStyle="bold"
             app:cornerRadius = "14dp"/>
